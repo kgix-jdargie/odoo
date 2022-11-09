@@ -38,7 +38,7 @@ conf['addons_path'] = '../../addons/trunk,../../web/trunk/addons'
 #----------------------------------------------------------
 # Generic WSGI handlers application
 #----------------------------------------------------------
-application = odoo.service.wsgi_server.application
+application = odoo.http.root
 
 odoo.service.server.load_server_wide_modules()
 
